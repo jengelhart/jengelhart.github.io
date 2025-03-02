@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Terminus</title>
-    </head>
-    <body>
-        <p>About</p>
+<head>
+    <link rel="icon" type="image/svg" href="logo.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminus</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #EEEEEE;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        a {
+            margin: 10px;
+            color: #333333;
+        }
+        img {
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: left;
+            justify-content: left;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="logo.svg"/>
+        <h1>Terminus</h1>
+        <h3>About</h2>
         <a href="index.html">Home</a>
-    </body>
+        <a href="research.html">Research</a>
+    </div>
+    <div class="container">
+        <h5>
+            Few equities are worth owning. Most firms ever listed go under or have returns worse than corporate debt. Those firms worth owning share several characteristics, most importantly that they are able to consistently invest capital at a high expected rate of return for an unreasonably long time. We use AI-centric research tooling and a unique lens to analyze firms and the economy in unprecedented breadth and depth. We target companies with low risk of permanent capital impairment and differentiated opportunities to invest capital for organic growth.
+        </h5>
+        <h6>Sources</h6>
+        <list>
+            <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2900447">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2900447</a></li>
+            <li><a href="https://www.morganstanley.com/im/publication/insights/articles/article_roicandtheinvestmentprocess.pdf">https://www.morganstanley.com/im/publication/insights/articles/article_roicandtheinvestmentprocess.pdf</a></li>
+            <li><a href="https://www.morganstanley.com/im/publication/insights/articles/article_returnoninvestedcapital.pdf">https://www.morganstanley.com/im/publication/insights/articles/article_returnoninvestedcapital.pdf</a></li>
+        </list>
+    </div>
+</body>
 </html>
